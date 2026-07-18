@@ -281,17 +281,3 @@ Berikut grafik akurasi dan loss selama pelatihan model MobileNetV2:
 [4] Krizhevsky, A., et al. (2012). ImageNet Classification with Deep Convolutional Neural Networks. *NeurIPS* (pp. 1097-1105).
 
 [5] He, K., et al. (2016). Deep Residual Learning for Image Recognition. *CVPR* (pp. 770-778).
-
-[6] Shorten, C., & Khoshgoftaar, T. M. (2019). A survey on Image Data Augmentation for Deep Learning. *Journal of Big Data*, 6(1), 1-48.
-
-[7] Tan, M., & Le, Q. V. (2019). EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks. *ICML* (pp. 6105-6114).
-
-[8] Russakovsky, O., et al. (2015). ImageNet Large Scale Visual Recognition Challenge. *IJCV*, 115(3), 211-252.
-
-[9] Wightman, R. (2019). PyTorch Image Models (timm). GitHub: https://github.com/rwightman/pytorch-image-models
-
-[10] Chollet, F. (2017). Xception: Deep Learning with Depthwise Separable Convolutions. *CVPR* (pp. 1251-1258).
-
-[11] Vaswani, A., et al. (2017). Attention is All You Need. *NeurIPS* (pp. 5998-6008).
-
-[12] Paszke, A., et al. (2019). PyTorch: An Imperative Style, High-Performance Deep Learning Library. *NeurIPS* (pp. 8024-8035).
