@@ -1,60 +1,7 @@
-# LAPORAN ANALISIS PERBANDINGAN
-# KLASIFIKASI GAMBAR BUNGA MENGGUNAKAN
-# CONVOLUTIONAL NEURAL NETWORK (MOBILENETV2)
-# DAN VISION TRANSFORMER (ViT-Base)
+# Nama kelompok
+Nabil Fawwaz S 2406079
 
-**Studi Kasus: Klasifikasi Bunga Matahari, Mawar, Melati, dan Tulip**
-
-Tugas Besar Mata Kuliah Kecerdasan Buatan
-Program Studi Teknik Informatika
-Tahun Akademik 2024/2025
-
----
-
-## DAFTAR ISI
-
-**BAB I  PENDAHULUAN**
-- 1.1  Latar Belakang
-- 1.2  Judul Proyek
-- 1.3  Business Understanding
-  - 1.3.1  Permasalahan Dunia Nyata
-  - 1.3.2  Tujuan Proyek
-  - 1.3.3  Pengguna Sistem
-  - 1.3.4  Solusi dan Manfaat Implementasi AI
-
-**BAB II  PEMBAHASAN**
-- 2.1  Data Understanding
-  - 2.1.1  Sumber Data
-  - 2.1.2  Deskripsi Fitur (Atribut)
-  - 2.1.3  Ukuran dan Format Data
-  - 2.1.4  Tipe Data dan Target Klasifikasi
-- 2.2  Exploratory Data Analysis (EDA)
-  - 2.2.1  Distribusi Data
-  - 2.2.2  Analisis Resolusi dan Format Gambar
-  - 2.2.3  Analisis Warna
-  - 2.2.4  Deteksi Ketidakseimbangan Data
-  - 2.2.5  Insight Awal Pola Data
-- 2.3  Data Preparation
-  - 2.3.1  Pembersihan Data
-  - 2.3.2  Encoding Data Kategorik
-  - 2.3.3  Normalisasi/Standardisasi Data Numerik
-  - 2.3.4  Split Data
-- 2.4  Modeling
-  - 2.4.1  Pemilihan Algoritma
-  - 2.4.2  Alasan Pemilihan Algoritma
-  - 2.4.3  Implementasi Model
-  - 2.4.4  Perbandingan Model
-  - 2.4.5  Visualisasi Model
-- 2.5  Evaluation
-- 2.6  Perbandingan Implementasi Aplikasi
-
-**BAB III  PENUTUP**
-- 3.1  Kesimpulan
-- 3.2  Rekomendasi
-
-**DAFTAR REFERENSI**
-
----
+Surya Kresna 2406089
 
 ## BAB I  PENDAHULUAN
 
@@ -598,7 +545,7 @@ Berdasarkan temuan dan analisis yang telah dilakukan, berikut adalah rekomendasi
 
 ---
 
-## DAFTAR REFERENSI
+## REFERENSI
 
 [1] Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn, D., Zhai, X., Unterthiner, T., ... & Houlsby, N. (2021). An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale. In *International Conference on Learning Representations (ICLR)*.
 
@@ -609,17 +556,3 @@ Berdasarkan temuan dan analisis yang telah dilakukan, berikut adalah rekomendasi
 [4] Krizhevsky, A., Sutskever, I., & Hinton, G. E. (2012). ImageNet Classification with Deep Convolutional Neural Networks. In *Advances in Neural Information Processing Systems (NeurIPS)* (pp. 1097-1105).
 
 [5] He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep Residual Learning for Image Recognition. In *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)* (pp. 770-778).
-
-[6] Shorten, C., & Khoshgoftaar, T. M. (2019). A survey on Image Data Augmentation for Deep Learning. *Journal of Big Data*, 6(1), 1-48.
-
-[7] Tan, M., & Le, Q. V. (2019). EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks. In *International Conference on Machine Learning (ICML)* (pp. 6105-6114).
-
-[8] Russakovsky, O., Deng, J., Su, H., Krause, J., Satheesh, S., Ma, S., ... & Fei-Fei, L. (2015). ImageNet Large Scale Visual Recognition Challenge. *International Journal of Computer Vision*, 115(3), 211-252.
-
-[9] Wightman, R. (2019). PyTorch Image Models (timm). GitHub repository. https://github.com/rwightman/pytorch-image-models
-
-[10] Chollet, F. (2017). Xception: Deep Learning with Depthwise Separable Convolutions. In *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)* (pp. 1251-1258).
-
-[11] Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin, I. (2017). Attention is All You Need. In *Advances in Neural Information Processing Systems (NeurIPS)* (pp. 5998-6008).
-
-[12] Paszke, A., Gross, S., Massa, F., Lerer, A., Bradbury, J., Chanan, G., ... & Chintala, S. (2019). PyTorch: An Imperative Style, High-Performance Deep Learning Library. In *Advances in Neural Information Processing Systems (NeurIPS)* (pp. 8024-8035).
