@@ -126,17 +126,17 @@ Berikut adalah contoh gambar dari masing-masing kelas dalam dataset:
 
 | Bunga Matahari | Bunga Mawar | Bunga Melati | Bunga Tulip |
 |:---:|:---:|:---:|:---:|
-| ![Matahari](TB%20AI%20Flowers/dataset/matahari/1.jpg) | ![Mawar](TB%20AI%20Flowers/dataset/mawar/1.png) | ![Melati](TB%20AI%20Flowers/dataset/melati/1.jpg) | ![Tulip](TB%20AI%20Flowers/dataset/tulip/1.jpg) |
+| ![Matahari](dataset/matahari/1.jpg) | ![Mawar](dataset/mawar/1.png) | ![Melati](dataset/melati/1.jpg) | ![Tulip](dataset/tulip/1.jpg) |
 
 #### 2.2.1  Distribusi Data
 
 Visualisasi distribusi jumlah gambar per kelas ditunjukkan pada Gambar 1 dan Gambar 2 berikut. Dari bar chart dan pie chart terlihat bahwa distribusi data relatif seimbang antar keempat kelas.
 
-![Gambar 1. Distribusi Jumlah Gambar per Kelas (Bar Chart)](extracted_media/image1.png)
+![Gambar 1. Distribusi Jumlah Gambar per Kelas (Bar Chart)](assets/image1.png)
 
 **Gambar 1.** Distribusi Jumlah Gambar per Kelas (Bar Chart)
 
-![Gambar 2. Proporsi Dataset per Kelas (Pie Chart)](extracted_media/image2.png)
+![Gambar 2. Proporsi Dataset per Kelas (Pie Chart)](assets/image2.png)
 
 **Gambar 2.** Proporsi Dataset per Kelas (Pie Chart)
 
@@ -146,11 +146,11 @@ Distribusi data menunjukkan bahwa keempat kelas memiliki jumlah gambar yang hamp
 
 Analisis resolusi gambar menunjukkan variasi yang sangat tinggi, mulai dari 236x211 piksel hingga 3840x5760 piksel. Sebaran resolusi per kelas ditunjukkan pada Gambar 3 dan 4.
 
-![Gambar 3. Sebaran Resolusi Gambar per Kelas](extracted_media/image3.png)
+![Gambar 3. Sebaran Resolusi Gambar per Kelas](assets/image3.png)
 
 **Gambar 3.** Sebaran Resolusi Gambar per Kelas
 
-![Gambar 4. Distribusi Lebar dan Tinggi Gambar](extracted_media/image4.png)
+![Gambar 4. Distribusi Lebar dan Tinggi Gambar](assets/image4.png)
 
 **Gambar 4.** Distribusi Lebar dan Tinggi Gambar
 
@@ -158,7 +158,7 @@ Dari scatter plot terlihat bahwa resolusi gambar sangat bervariasi dan tidak ter
 
 Distribusi format file (Gambar 5) menunjukkan dominasi format JPEG yang mencakup 96,9% dari total dataset. Format PNG, WebP, dan GIF hanya menyumbang sebagian kecil dan perlu di-handle secara khusus pada tahap preprocessing.
 
-![Gambar 5. Distribusi Format File Gambar](extracted_media/image5.png)
+![Gambar 5. Distribusi Format File Gambar](assets/image5.png)
 
 **Gambar 5.** Distribusi Format File Gambar
 
@@ -166,11 +166,11 @@ Distribusi format file (Gambar 5) menunjukkan dominasi format JPEG yang mencakup
 
 Analisis warna dilakukan dengan menghitung rata-rata intensitas RGB untuk setiap gambar. Hasil visualisasi pada Gambar 6 dan 7 menunjukkan perbedaan karakteristik warna antar kelas.
 
-![Gambar 6. Sebaran Warna Rata-rata dalam Ruang RGB](extracted_media/image6.png)
+![Gambar 6. Sebaran Warna Rata-rata dalam Ruang RGB](assets/image6.png)
 
 **Gambar 6.** Sebaran Warna Rata-rata dalam Ruang RGB
 
-![Gambar 7. Rata-rata Intensitas RGB per Kelas](extracted_media/image7.png)
+![Gambar 7. Rata-rata Intensitas RGB per Kelas](assets/image7.png)
 
 **Gambar 7.** Rata-rata Intensitas RGB per Kelas
 
@@ -204,7 +204,7 @@ Berdasarkan EDA yang telah dilakukan, beberapa insight awal yang diperoleh adala
 5. Ukuran file bervariasi dari 11,7 KB hingga 1.675,8 KB, menunjukkan kualitas gambar yang tidak seragam yang dapat mempengaruhi kemampuan generalisasi model.
 6. Distribusi ukuran file (Gambar 8) menunjukkan bahwa mayoritas gambar memiliki ukuran di bawah 200 KB, dengan beberapa outlier berukuran sangat besar (>1.000 KB).
 
-![Gambar 8. Distribusi Ukuran File per Kelas](extracted_media/image8.png)
+![Gambar 8. Distribusi Ukuran File per Kelas](assets/image8.png)
 
 **Gambar 8.** Distribusi Ukuran File per Kelas
 
@@ -462,13 +462,13 @@ Evaluasi model dilakukan menggunakan metrik-metrik standar dalam klasifikasi mul
 
 Berikut adalah grafik training history yang menunjukkan akurasi dan loss selama proses pelatihan model MobileNetV2:
 
-![Training History](TB%20AI%20Flowers/training_history.png)
+![Training History](assets/training_history.png)
 
 **Gambar 9.** Training History Model MobileNetV2
 
 Berikut adalah confusion matrix hasil evaluasi model MobileNetV2 pada data validasi:
 
-![Confusion Matrix](TB%20AI%20Flowers/confusion_matrix.png)
+![Confusion Matrix](assets/confusion_matrix.png)
 
 **Gambar 10.** Confusion Matrix Model MobileNetV2
 
